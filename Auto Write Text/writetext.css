@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   
+    background-color: palegreen;
+    color: rgb(149, 5, 137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    min-height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
