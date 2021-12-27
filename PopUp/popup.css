@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+   justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+.pop{
+    margin-top: 10px;
+    background-color: #faebd7;
+    margin-right: 80%;
+    padding: 1%;
+
+}
+#close{
+    position: relative;
+    float: right;
+ 
+}
+.container{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: 0;
+    left: 0%;
+    background-color: rgb(0, 0, 0,0.5);
+   display: none;
+}
+
+.active{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: 0;
+    left: 0%;
+    background-color: rgb(0, 0, 0,0.5);
+}
